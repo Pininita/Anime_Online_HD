@@ -1,0 +1,62 @@
+
+.grid-box {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 220px 140px 140px 170px auto 100px;
+    grid-template-rows: 100px;
+    gap: 5px;
+    overflow: hidden;
+}
+
+.grid-box-son {
+    background-color: beige;
+}
+
+.header-img {
+    height: 99px;
+}
+
+.home , .animes , .develop {
+    padding-top: 40px;
+    text-align: center;
+    
+}
+
+.search {
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 20px;
+    min-width: 200px;
+}
+
+.photo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container--title {
+    margin-left: 10px;
+
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-container--caps {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+img {
+    width: auto;
+    height: 136px;
+}
