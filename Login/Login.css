@@ -3,8 +3,11 @@ body {
 }
 
 h1 {
-
-    padding-top: 70px;
+    position: absolute;
+    left: 25.1%;
+    right: 60%;
+    width: 50%;
+    padding-top:60px;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -49,8 +52,15 @@ h1 {
     margin-left: 23%;
 }
 
-.password2,
+.password2 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .name2 {
+    margin-top: 130px;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
