@@ -27,6 +27,7 @@ div {
 }
 
 .flex-padre--2{
+    text-align: center;
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
@@ -38,9 +39,9 @@ div {
 }
 
 .imagen{
-    width: 216px;
+    width: 251px;
     height: 136px;
-    max-width: 80%;
+    max-width: 106%;
     max-height: 80%;
     border: 1px solid red;
 }
@@ -194,6 +195,8 @@ h6 {
 }
 
 .episode-icon {
+    position:relative;
+    top: 7px;
     width: 40px;
     height: 40px;
 }
@@ -201,4 +204,10 @@ h6 {
 .hijo {
     display: flex;
     flex-direction: column;
+}
+
+a {
+    width: 60%;
+    padding-top: 2%;
+    padding-left: 20%;
 }
