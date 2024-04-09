@@ -1,77 +1,104 @@
 body {
-    background: #7B1FA2;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
 }
 
-h1 {
-
-    padding-top: 70px;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+.main-login--container {
+    display: flex;
+    background: #282248;
+    align-items: center;
+    justify-content: center;
+    height: 100%;    
 }
 
-.stylebox {
+.main-login--stylebox {
     border-radius: 20px;
     outline: inherit;
-    box-shadow: 5px 5px 5px #3f3636;
-    margin-inline: auto;
-    justify-items: center;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 18px;
-    width: 40%;
-    height: 600px;
+    justify-content: space-between;
+    width: 50%;
+    height: 450px;
     background-color: #ffffff;
+}
+
+.main-login--container-form {
+    width: 50%;
+    padding-inline: 10px;
+}
+
+.main-login--anime-image {
+    background-color: #212529;
+    width: 50%;
+}
+
+.main-login--section-inputs {
+    text-align: start;
+    padding-inline: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
     text-align: center;
-
-
-
+    margin-bottom: 26px;
 }
 
-.Name {
-    justify-items: center;
-    text-align: justify;
-    width: 52%;
-    height: 30px;
-    left: 125px;
-    margin-left: 23%;
-}
-
-
-.Password {
-    justify-items: center;
-    text-align: justify;
-    width: 52%;
-    height: 30px;
-    left: 125px;
-    margin-left: 23%;
-}
-
-.password2,
-.name2 {
-    font-size: 20px;
+label {
+    display: block;
+    margin-block-end: 10px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btn {
+input {
+    width: 93%;
+    margin-block-end: 24px;
+    height: 32px;
+    padding-inline: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main-login--section-btn {
+    text-align: center;
+}
+
+.main-login-btn-signin {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-block: 12px;
+    padding-block: 8px;
+    border-radius: 10px;
     color: #ffffff;
     text-align: center;
-    width: 22%;
-    left: 125px;
+    width: 50%;
     outline: inherit;
     border: none;
     background-color: #212529;
-
-
+    margin-top: 32px;
+    cursor: pointer;
 }
 
-a {
+.main-login--anime-image {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+
+.main-login--developers-names {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+}
+
+.main-login--developers-names > h4 {
+    margin: 0;
+    margin-bottom: 8px;
 }
