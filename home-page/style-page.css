@@ -1,0 +1,213 @@
+
+.grid-box {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 100px 160px 140px 160px 190px auto 100px;
+    grid-template-rows: 50px 50px;
+    gap: 5px;
+    overflow: hidden;
+    background-color: rgb(71, 99, 136);
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid-box-son {
+    color: rgba(235, 235, 235, 0.842);
+}
+
+.flex-padre {
+    max-height: max-content;
+    background-color: rgb(46, 83, 133);
+}
+/* prueba inicia */
+div {
+    border: 1px solid red;
+}
+
+.flex-padre--2{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.flex-padre--2 > img {
+    width: 250px;
+    height: 136px;
+    
+}
+
+.imagen{
+    width: 251px;
+    height: 136px;
+    max-width: 106%;
+    max-height: 80%;
+    border: 1px solid red;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 9;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 9;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 9;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 9;
+}
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 9;
+}
+
+
+
+/* prueba finaliza */
+.header-img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.logo {
+    grid-row: 1/3;
+}
+
+.tio {
+    grid-row: 1/3;
+    align-content: center;
+    font-size: 25px;
+    color: white;
+}
+
+.logo-text {
+    font-size: 15px;
+}
+
+.home {
+    grid-row: 1/3;
+}
+
+.animes {
+    grid-row: 1/3;
+}
+
+.develop {
+    grid-row: 1/3;
+    font-weight: bold;
+}
+
+.search {
+    grid-row: 1/3;
+}
+
+.photo {
+    grid-row: 1/3;
+}
+
+.logo-logout {
+    width: 50px;
+    height: 50px;
+}
+
+.home , .animes , .develop {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.search {
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 20px;
+    min-width: 200px;
+}
+
+.photo {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+footer > img {
+    width: auto;
+    height: 136px;
+}
+
+footer {
+    display: flex ;
+    width: 100%;
+    justify-content:baseline;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-footer {
+    width: auto;
+}
+
+.name-footer {
+    width: 10%;
+}
+
+.request-footer {
+    width: 10%;
+}
+
+.contact-footer {
+    width: auto;
+}
+
+h6 {
+    text-align: right;
+    border: 1px solid purple;
+    height: 50px;
+    width: auto;
+    font-size: 15px;
+}
+
+.episode-icon {
+    position:relative;
+    top: 7px;
+    width: 40px;
+    height: 40px;
+}
+
+.hijo {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    width: 60%;
+    padding-top: 2%;
+    padding-left: 20%;
+}
