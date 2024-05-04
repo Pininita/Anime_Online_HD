@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Login.css">
 </head>
-
 <body>
-
-     
-    <div class="stylebox">
-
-        <h1>Sign In</h1>
-        <br> <br> <br> <br>
-        <label class="name2">Username</label>
-        <br>
-        <input id="username" type="text" class="Name" placeholder="Name">
-        <br>
-        <label class="password2">Password</label>
-        <br>
-        <input type="password" class="Password" placeholder="Password">
-        <br><br>
-        <a href="../home-page/index.html"><button class="btn">Sign in</button></a>
-
+    <div class="main-login--container">
+        <div class="main-login--stylebox">
+            <div class="main-login--container-form">
+                <h2>Sign In</h2>
+                <section class="main-login--section-inputs">
+                    <label for="name" class="main-login--input-name">Username</label>
+                    <input type="text" class="Name" placeholder="Username">
+                    <label for="password" class="main-login--input-password">Password</label>
+                    <input type="password" placeholder="Password">
+                    <div class="main-login--section-btn">
+                        <a href="https://www.youtube.com/">
+                            <button class="main-login-btn-signin">
+                                Sign in
+                            </button>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="main-login--anime-image">
+                <div>
+                    <h2>Developer By:</h2>
+                    <section class="main-login--developers-names">
+                        <h4>Jorge Daniel Sanabria</h4>
+                        <h4>Maicol Elian Arango</h4>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="../funcionality/index.js"></script>
-</body>
 
+</body>
 </html>
