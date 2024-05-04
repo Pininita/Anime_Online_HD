@@ -211,3 +211,31 @@ a {
     padding-top: 2%;
     padding-left: 20%;
 }
+
+/* section: latest => animes,ovas,specials */
+
+.latest-animes {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 32% 32% 32%;
+    
+}
+
+.latest-animes-movies{
+    height: 50px;
+    
+}
+
+.latest-animes-ovas {
+    height: 50px;
+    
+}
+
+.latest-animes-specials {
+    height: 50px;
+    
+}
+
+.content-latest-anime{
+    display: grid;
+}
