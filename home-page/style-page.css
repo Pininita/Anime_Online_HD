@@ -217,25 +217,85 @@ a {
 .latest-animes {
     display: grid;
     gap: 5px;
-    grid-template-columns: 32% 32% 32%;
-    
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    justify-content: space-around;
+
 }
 
 .latest-animes-movies{
-    height: 50px;
+    height: auto;
     
 }
 
 .latest-animes-ovas {
-    height: 50px;
+    height: auto;
     
 }
 
 .latest-animes-specials {
-    height: 50px;
+    height: auto;
     
 }
 
-.content-latest-anime{
+/* content latest anime */
+
+.latest-animes-movies--content {
     display: grid;
+    grid-template-columns: 130px 65px 110px 75px;
+    grid-template-rows: 40px 70px 70px 40px 70px 70px;
+    padding: 15px 10px;
+    gap: 5px;
+}
+
+.latest-anime-movies--content-item1{
+    grid-row: 1/4;
+}
+
+.latest-anime-movies--content-item2{
+    grid-column: 2/5;
+}
+
+.latest-anime-movies--content-item3{
+    grid-column: 2/5;
+}
+
+.latest-anime-movies--content-item4{
+    grid-column: 2/3;
+}
+
+.latest-anime-movies--content-item5{
+    grid-column: 3/4;
+}
+
+.latest-anime-movies--content-item6{
+    grid-column: 4/5;
+}
+
+
+
+/* other section */
+
+.latest-anime-movies--content-item7{
+    grid-row: 4/7;
+}
+
+.latest-anime-movies--content-item8{
+    grid-column: 2/5;
+}
+
+.latest-anime-movies--content-item9{
+    grid-column: 2/5;
+}
+
+.latest-anime-movies--content-item10{
+    grid-column: 2/3;
+}
+
+.latest-anime-movies--content-item11{
+    grid-column: 3/4;
+}
+
+.latest-anime-movies--content-item12{
+    grid-column: 4/5;
 }
