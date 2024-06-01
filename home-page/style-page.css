@@ -24,7 +24,7 @@ a {
 }
 /* prueba inicia */
 div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .flex-padre--2{
@@ -309,3 +309,8 @@ a {
     grid-column: 4/5;
 }
 
+/* latest news section */
+.section--latest-news {
+    border: 2px solid rgb(0, 0, 0);
+    height: 500px;
+}
