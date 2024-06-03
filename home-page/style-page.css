@@ -1,4 +1,3 @@
-
 .grid-box {
     border: 1px solid blue;
     display: grid;
@@ -22,24 +21,26 @@ a {
     max-height: max-content;
     background-color: rgb(46, 83, 133);
 }
+
 /* prueba inicia */
 div {
     /* border: 1px solid red; */
 }
 
-.flex-padre--2{
+.flex-padre--2 {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
-}
-.flex-padre--2 > img {
-    width: 250px;
-    height: 136px;
-    
+    flex-wrap: wrap;
 }
 
-.imagen{
+.flex-padre--2>img {
+    width: 250px;
+    height: 136px;
+
+}
+
+.imagen {
     width: 100%;
     max-width: 251px;
     height: auto;
@@ -137,13 +138,15 @@ div {
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.3s ease; /* Transición suave del color del borde */
+    transition: border-color 0.3s ease;
+    /* Transición suave del color del borde */
     max-width: 80%;
     min-width: 30%;
 }
 
 .search:focus {
-    border-color: #007bff; /* Cambiar el color del borde al enfocar el input */
+    border-color: #007bff;
+    /* Cambiar el color del borde al enfocar el input */
 }
 
 .photo {
@@ -155,7 +158,9 @@ div {
     height: 50px;
 }
 
-.home , .animes , .develop {
+.home,
+.animes,
+.develop {
     text-align: center;
     font-size: 19px;
 }
@@ -163,18 +168,18 @@ div {
 .photo {
     text-align: center;
     padding-top: 20px;
-    
+
 }
 
-footer > img {
+footer>img {
     width: auto;
     height: 136px;
 }
 
 footer {
-    display: flex ;
+    display: flex;
     width: 100%;
-    justify-content:baseline;
+    justify-content: baseline;
     align-items: center;
     gap: 20px;
 }
@@ -204,7 +209,7 @@ h6 {
 }
 
 .episode-icon {
-    position:relative;
+    position: relative;
     top: 7px;
     width: 40px;
     height: 40px;
@@ -232,7 +237,7 @@ a {
     overflow: auto;
 }
 
-.latest-animes-movies{
+.latest-animes-movies {
     height: auto;
     flex-wrap: nowrap;
 }
@@ -257,27 +262,27 @@ a {
     gap: 5px;
 }
 
-.latest-anime-movies--content-item1{
+.latest-anime-movies--content-item1 {
     grid-row: 1/4;
 }
 
-.latest-anime-movies--content-item2{
+.latest-anime-movies--content-item2 {
     grid-column: 2/5;
 }
 
-.latest-anime-movies--content-item3{
+.latest-anime-movies--content-item3 {
     grid-column: 2/5;
 }
 
-.latest-anime-movies--content-item4{
+.latest-anime-movies--content-item4 {
     grid-column: 2/3;
 }
 
-.latest-anime-movies--content-item5{
+.latest-anime-movies--content-item5 {
     grid-column: 3/4;
 }
 
-.latest-anime-movies--content-item6{
+.latest-anime-movies--content-item6 {
     grid-column: 4/5;
 }
 
@@ -285,27 +290,27 @@ a {
 
 /* other section */
 
-.latest-anime-movies--content-item7{
+.latest-anime-movies--content-item7 {
     grid-row: 4/7;
 }
 
-.latest-anime-movies--content-item8{
+.latest-anime-movies--content-item8 {
     grid-column: 2/5;
 }
 
-.latest-anime-movies--content-item9{
+.latest-anime-movies--content-item9 {
     grid-column: 2/5;
 }
 
-.latest-anime-movies--content-item10{
+.latest-anime-movies--content-item10 {
     grid-column: 2/3;
 }
 
-.latest-anime-movies--content-item11{
+.latest-anime-movies--content-item11 {
     grid-column: 3/4;
 }
 
-.latest-anime-movies--content-item12{
+.latest-anime-movies--content-item12 {
     grid-column: 4/5;
 }
 
@@ -313,4 +318,54 @@ a {
 .section--latest-news {
     border: 2px solid rgb(0, 0, 0);
     height: 500px;
+    padding-inline: 20px;
+}
+
+/* practica flex */
+.section--latest-news-titles {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+h3 {
+    width: 33%
+}
+
+.content--latest-new {
+    display: flex;
+    justify-content: space-between;
+    min-width: 80%;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+
+.latest-ovas-cart1 {
+    display: flex;
+    height: 200px;
+    width: 33%;
+
+}
+
+.imagen-latest-new {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imagen-latest-new-box2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 15px;
+}
+
+.subtitule-latest-new {}
+
+.buttons-latest-new {
+    align-content: space-around;
 }
