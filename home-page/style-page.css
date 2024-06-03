@@ -1,5 +1,4 @@
 .grid-box {
-    border: 1px solid blue;
     display: grid;
     grid-template-columns: 100px 160px 140px 160px 190px auto 100px;
     grid-template-rows: 50px 50px;
@@ -140,13 +139,18 @@ div {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s ease;
     /* Transición suave del color del borde */
-    max-width: 80%;
-    min-width: 30%;
+    max-width: 260px;
+    min-width: 200px;
+    margin-left: 30%;
 }
 
 .search:focus {
     border-color: #007bff;
     /* Cambiar el color del borde al enfocar el input */
+}
+
+.search::placeholder {
+    color: rgba(0, 0, 0, 0.548);
 }
 
 .photo {
